@@ -10,3 +10,13 @@ Pré-requisitos:
 
 ● Um sistema baseado em uma distribuição Linux;<br />
 ● Perfil no GitHub.
+
+Definições:
+
+► Excluir diretórios, arquivos, grupos e usuários criados anteriormente;<br />
+► O dono de todos os diretórios criados será o usuário root;<br />
+► Todos os usuários terão permissão total dentro do diretório publico;<br />
+► Os usuários de cada grupo terão permissão total dentro de seu respectivo diretório;<br />
+► Os usuários não poderão ter permissão de leitura, escrita e execução em diretórios de departamentos que eles não pertencem;<br />
+► Todo provisionamento deve ser feito em um arquivo do tipo Bash Script;<br />
+► Subir o arquivo de script criado para a sua conta no GitHub.
